@@ -1,4 +1,9 @@
-#Always compare with initial frame to determine if it is the background
+# For this script you need a first "default" frame to set as a background.
+# In situations with outdoor cameras,
+# with lights changing quite constantly, this process
+# results in a quite inflexible approach, so it is needed
+# a bit more intelligence into the system
+
 
 import cv2
 import numpy as np
