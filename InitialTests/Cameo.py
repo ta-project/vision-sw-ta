@@ -5,9 +5,10 @@ from filters import *
 import cv2
 
 from manager import window_manager
-
+#cambio2
 
 class Cameo(object):
+    '''Cameo class'''
 
     def __init__(self):
         self._window_manager = WindowManager('Cameo', self.onKeyPress)

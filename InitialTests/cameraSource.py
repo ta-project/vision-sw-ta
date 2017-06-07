@@ -1,5 +1,5 @@
 import cv2
-
+#test git
 cameraCapture = cv2.VideoCapture(0) #camera index
 fps = 10 #an assumption
 size = (int(cameraCapture.get(cv2.CAP_PROP_FRAME_WIDTH)),
