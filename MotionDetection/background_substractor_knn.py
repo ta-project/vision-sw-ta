@@ -21,5 +21,5 @@ while True:
     if cv2.waitKey(30) & 0xff == 27:
         break
 
-camera.release()
+camera.release()#ss
 cv2.destroyAllWindows()
